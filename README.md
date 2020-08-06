@@ -5,4 +5,6 @@ This repo was created to file and share the first of two projects within the Har
 
 The capstone-movielens project was to develop and refine an algorithm for a movie recommendation system using the MovieLens 10M dataset such that it was able to predict ratings with a residual mean square error of less than 0.86490.
 
-The .Rmd file is set up to load the tidied movielens data (fulldata.Rda) although the code which was provided by HarvardX as part of the project brief is also included for information. The .Rmd file also references a preamble.tex file which was created to soften the latex rules on floating figures/tables within the pdf report and a references.bib file which includes the references cited in the report in bibtex format.
+The .Rmd file is set up to load the tidied movielens data partitioned into edx and validation datsets. This fulldata.Rda file is not provided here. The code which generates this data was provided by HarvardX as part of the project brief and is included for information within the .Rmd file.
+
+The .Rmd file also refers to a preamble.tex file which was created to soften the latex rules on floating figures/tables within the pdf report and a references.bib file which includes the references cited in the report in bibtex format. Both of these files are included in the repo for information.
