@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
                       fig.align="center", out.width="70%")
 
 # Load tidied movielens data based on code provided in project instructions
-load("~/Data-Science/capstone-movielens/fulldata.RData")
+load("~/Data-Science/datascience-capstone-movielens/fulldata.RData")
 
 # Open required package libraries
 library(tidyverse)
@@ -43,7 +43,7 @@ plot_theme <- theme(plot.caption = element_text(size = 12, face = "italic"), axi
 
 # **Introduction**  
 
-Competing in the era of artificial intelligence requires companies to rethink both their business and operational strategies  [@iansiti2020], placing greater emphasis on the application of data science principles to exploit the availability of big data and the power of machine learning to create value [@mohr2018].
+Competing in the era of artificial intelligence requires companies to rethink both their business and operating models  [@iansiti2020], placing greater emphasis on the application of data science principles to exploit the availability of big data and the power of machine learning to create value [@mohr2018].
 
 Recommendation systems are among the most important applications of machine learning deployed by digital companies today  [@schrage_2017]. Companies such as Amazon and Netflix use these systems to understand their customers better and to target them with products more effectively [@schrage_2018]. In 2009, Netflix awarded a $1M prize to the team of data scientists who had successfully met the challenge of improving their movie recommendation algorithm by 10% [@lohr_2009; @koren2009].
 
