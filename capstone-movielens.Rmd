@@ -23,7 +23,7 @@ urlcolor: blue
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
                       fig.align="center", out.width="70%")
 
-# Load tidied movielens data based on code provided in project instructions
+# Load wrangled, tidied and partitioned movielens data based on code provided in project instructions
 load("~/Data-Science/datascience-capstone-movielens/fulldata.RData")
 
 # Open required package libraries
