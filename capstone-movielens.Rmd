@@ -460,7 +460,7 @@ predicted_b_r <- test_set %>%
 review_rmse <- RMSE(predicted_b_r, test_set$rating)
 ```
 
-## Regularising of the algorithm
+## Regularising the algorithm
 
 ```{r - regularised-model}
 # Generate a sequence of values for lambda ranging from 3 to 6 with 0.1 increments (inc)
@@ -717,7 +717,7 @@ rmse_results %>%
   kable_styling(full_width = FALSE, position = "center", latex_options = "hold_position")
 ```
 
-## Regularising the algorithm
+## Effect of regularisation
 
 The final step in developing the algorithm was to apply regularisation. Figure 15 shows the RMSE delivered across each of the values for $\lambda$ tested. The optimum value for $\lambda$ was `r lambda` which minimised RMSE to `r round(regularised_rmse,5)`, which was just sufficient to surpass the target RMSE set as the project objective. This represented a total improvement of `r percent((simple_rmse-regularised_rmse)/simple_rmse,0.01)` in the accuracy of the model by adjusting for movie, user, genre, year of release and review date effects and applying regularisation to the combination of these effects.  
 
